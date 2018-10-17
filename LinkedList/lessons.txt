@@ -4,10 +4,12 @@ For 876:
    2) using next->next should check next empty first
 
 For 206:
-   1) the recursive version is tricky, but it's faster than iterative version
+   1) the recursive version is tricky
    2) recursive version need to note that:
       when the func comes back, the following nodes reverse, the head is changed
       we need to append the current to the end of reversed, how to get the tail?
       current.next is the tail, so just use current.next for the tail
+   3) wrong conclusion, rec is faster than iter, leetcode website didn't report 
+      the timing well and confused me, get the good timing with re-submission.
 
 
